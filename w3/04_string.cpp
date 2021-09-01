@@ -16,13 +16,14 @@ int main()
     cout << "\nThe size of the text : "<<txt.size();
     cout << "\n";
     //input strings
-    string countryNameAndCapital;
+    string countryNameAndCapital,personName;
     /*
     only takes first part before space of the string
     cin >> countryNameAndCapital;
     */
     //takes a full string
     getline(cin,countryNameAndCapital);
+    //getline(cin,personName);
     cout << countryNameAndCapital;
     return 0;
 }
