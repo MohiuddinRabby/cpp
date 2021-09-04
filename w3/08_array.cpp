@@ -4,8 +4,8 @@
 using namespace std;
 int main()
 {
-    string cars[] = {"vlovo","lancer","bmw","toyota"};
-    for(int i=0; i<cars[i].length(); i++)
+    string cars[3] = {"volvo","bmw","toyota"};
+    for(int i=0; i<=2; i++)
     {
         cout << cars[i]<<"\n";
     }
