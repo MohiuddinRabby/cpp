@@ -1,2 +1,4 @@
 /w3/*.exe
 /w3/*.o
+/w3resource/basic/*.o
+/w3resource/basic/*.exe
