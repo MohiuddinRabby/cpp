@@ -11,12 +11,14 @@ int main()
      * Code your solution here
      * Escriba su solución aquí
      */
-    double A, B,MEDIA=0;
+    double A, B,C,MEDIA=0;
     cin >> A;
     cin >> B;
-    A = A*3.5;
-    B = B*7.5;
-    MEDIA = (A+B)/(3.5+7.5);
-    cout <<setprecision(5)<< fixed<<  "MEDIA = "<< MEDIA << endl;
+    cin >> C;
+    if(A  <=10.0 && B <=10.0 && C<=10.0)
+    {
+        MEDIA = (A+B+C)/3;
+        cout <<setprecision(1)<< fixed<<  "MEDIA = "<< MEDIA << endl;
+    }
     return 0;
 }
