@@ -15,10 +15,10 @@ int main()
     cin >> A;
     cin >> B;
     cin >> C;
-    if(A  <=10.0 && B <=10.0 && C<=10.0)
-    {
-        MEDIA = (A+B+C)/3;
-        cout <<setprecision(1)<< fixed<<  "MEDIA = "<< MEDIA << endl;
-    }
+    A = A*2;
+    B = B*3;
+    C = C*5;
+    MEDIA = (A+B+C)/(2+3+5);
+    cout <<setprecision(1)<< fixed<<  "MEDIA = "<< MEDIA << endl;
     return 0;
 }
