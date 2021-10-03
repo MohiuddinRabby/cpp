@@ -2,3 +2,4 @@
 /w3/*.o
 /w3resource/basic/*.o
 /w3resource/basic/*.exe
+/uri/*.o
