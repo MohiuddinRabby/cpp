@@ -1,4 +1,5 @@
 #include <iostream>
+#include <iomanip>
 using namespace std;
 
 int main()
@@ -9,10 +10,11 @@ int main()
      * Code your solution here
      * Escriba su solución aquí
      */
-    int N,a,b;
-    cin >> N;
-    a = N/3600;
-    b = a%60;
-    cout<< a<<":"<<b<<":";
+    int tripHour,avgSpeed;
+    double result;
+    cin>>tripHour>>avgSpeed;
+    result = (avgSpeed/12.0) * tripHour;
+    cout <<setprecision(3)<<fixed<< result<< endl;
     return 0;
 }
+

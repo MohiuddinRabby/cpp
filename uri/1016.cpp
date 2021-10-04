@@ -9,10 +9,10 @@ int main()
      * Code your solution here
      * Escriba su solución aquí
      */
-    int N,a,b;
-    cin >> N;
-    a = N/3600;
-    b = a%60;
-    cout<< a<<":"<<b<<":";
+    int distance;
+    cin >> distance;
+    int time = distance*2;
+    cout <<time<<" minutos"<< endl;
     return 0;
 }
+
