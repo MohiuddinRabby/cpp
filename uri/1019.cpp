@@ -9,10 +9,12 @@ int main()
      * Code your solution here
      * Escriba su solución aquí
      */
-    int N,a,b;
+    int N,remainder;
     cin >> N;
-    a = N/3600;
-    b = a%60;
-    cout<< a<<":"<<b<<":";
+    cout<<N/3600<<":";
+    remainder = N%3600;
+    cout << remainder/60<<":";
+    remainder = remainder%60;
+    cout<<remainder<<endl;
     return 0;
 }
